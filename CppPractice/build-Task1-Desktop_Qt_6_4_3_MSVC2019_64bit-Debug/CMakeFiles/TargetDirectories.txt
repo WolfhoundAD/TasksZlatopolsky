@@ -1,0 +1,8 @@
+C:/For project qt/Practice/CppPractice/build-Task1-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/CMakeFiles/Task1.dir
+C:/For project qt/Practice/CppPractice/build-Task1-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/CMakeFiles/edit_cache.dir
+C:/For project qt/Practice/CppPractice/build-Task1-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/For project qt/Practice/CppPractice/build-Task1-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/CMakeFiles/list_install_components.dir
+C:/For project qt/Practice/CppPractice/build-Task1-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/CMakeFiles/install.dir
+C:/For project qt/Practice/CppPractice/build-Task1-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/CMakeFiles/install/local.dir
+C:/For project qt/Practice/CppPractice/build-Task1-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/CMakeFiles/Task1_autogen_timestamp_deps.dir
+C:/For project qt/Practice/CppPractice/build-Task1-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/CMakeFiles/Task1_autogen.dir

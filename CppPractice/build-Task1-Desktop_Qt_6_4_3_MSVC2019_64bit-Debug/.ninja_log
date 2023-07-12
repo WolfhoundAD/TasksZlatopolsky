@@ -1,0 +1,8 @@
+# ninja log v5
+1	200	7108648307836561	Task1_autogen/timestamp	72ed67af1959c570
+1	200	7108648307836561	Task1_autogen/mocs_compilation.cpp	72ed67af1959c570
+1	200	7108648307836561	C:/For project qt/Practice/CppPractice/build-Task1-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/Task1_autogen/timestamp	72ed67af1959c570
+1	200	7108648307836561	C:/For project qt/Practice/CppPractice/build-Task1-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/Task1_autogen/mocs_compilation.cpp	72ed67af1959c570
+200	646	7108648313274970	CMakeFiles/Task1.dir/Task1_autogen/mocs_compilation.cpp.obj	410339a1ed9649f
+206	2233	7108648329126017	CMakeFiles/Task1.dir/main.cpp.obj	72a57dc51b841e8
+2234	2603	7108648332657195	Task1.exe	79790bc702850df3

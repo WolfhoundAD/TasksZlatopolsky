@@ -1,0 +1,11 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/For project qt/Practice/CppPractice/build-Task1-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_e1f91 && [1/2] Building CXX object CMakeFiles\cmTC_e1f91.dir\CheckIncludeFile.cxx.obj
+FAILED: CMakeFiles/cmTC_e1f91.dir/CheckIncludeFile.cxx.obj 
+"C:\PROGRA~1\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\HostX64\x64\cl.exe"  /nologo /TP   -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /showIncludes /FoCMakeFiles\cmTC_e1f91.dir\CheckIncludeFile.cxx.obj /FdCMakeFiles\cmTC_e1f91.dir\ /FS -c "C:\For project qt\Practice\CppPractice\build-Task1-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+C:\For project qt\Practice\CppPractice\build-Task1-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1): fatal error C1083: Не удается открыть файл включение: pthread.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+
