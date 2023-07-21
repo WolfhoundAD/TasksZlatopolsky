@@ -7,25 +7,24 @@ int main()
   //Chapter 6. Number 6.8.
   //The number n is given. From numbers 1, 4, 9, 16, 25, ... print those that do not exceed n.
   cout << "Chapter 6. Number 6.8." << endl;
-  const int size = 10;
-  int array[size] = {1, 4, 9, 16, 36, 49, 64, 81, 100, 121};
-  int n = 49;
-  int counter = 0;
-
-  cout << "Result:" << endl;
+  int n;
+  int i( 1 );
+  cout << "Enter a number:";
+  cin >> n;
 
   while ( true )
   {
-
-    if ( array[counter] < n )
-      cout << array[counter] << endl;
-
-    counter++;
-
-    if ( counter == size )
+    if ( ( i * i ) > n )
       break;
+    else
+    {
+      cout << i* i << " ";
+      i++;
+    }
   }
 
+  cout << endl;
+  cout << endl;
   //Chapter 6. Number 6.85.
   //Given a natural number. If there are numbers 2 and 5 in it, then determine which of
   // them is located in the number to the left. If one or both of these digits occur
