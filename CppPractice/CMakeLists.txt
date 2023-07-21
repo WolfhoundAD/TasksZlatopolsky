@@ -14,6 +14,10 @@ add_subdirectory (Chapter10/)
 add_subdirectory (Chapter11/)
 add_subdirectory (Chapter12/)
 add_subdirectory (Chapter13/)
+add_subdirectory (Chapter14/)
+add_subdirectory (Chapter15/)
+add_subdirectory (Chapter16/)
+add_subdirectory (Chapter17/)
 
 add_custom_target(ProjectRelatedFiles SOURCES
     .gitignore
