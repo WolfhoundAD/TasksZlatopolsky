@@ -4,10 +4,10 @@
 using namespace std;
 int main()
 {
-  //Chapter 15. Number 14.59.
+  //Chapter 15. Number 15.17.
   //There is a text file containing 20 lines. Rewrite each of its
   //strings into an array in the same order.
-  cout << "Chapter 15. Number 14.59." << endl;
+  cout << "Chapter 15. Number 15.17." << endl;
 
   ifstream ifs( "D:\\Chap15.txt" );
 
