@@ -10,8 +10,8 @@ int main()
   // c) the maximum of the elements with the same number in the given arrays.
   cout << "Chapter 11. Number 11.246." << endl;
   const int iLen = 10;
-  int arr1[iLen] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-  int arr2[iLen] = {4, 3, 3, 4, 5, 6, 7, 8, 9, 11};
+  const int arr1[iLen] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+  const int arr2[iLen] = {4, 3, 3, 4, 5, 6, 7, 8, 9, 11};
   int arr3[iLen];
 
 //a
@@ -46,7 +46,7 @@ int main()
   // Find the element closest to the average value of all the elements of the array.
   cout << "Chapter 11. Number 11.97." << endl;
 
-  int pArr[iLen] = {1, 3, 3, 4, 5, 6, 7, 8, 9, 25};
+  const int pArr[iLen] = {1, 3, 3, 4, 5, 6, 7, 8, 9, 25};
   int iSum = 0;
 
   for ( int i = 0; i < iLen; i++ )

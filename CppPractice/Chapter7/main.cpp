@@ -7,7 +7,7 @@ int main()
   //the sign changes in this sequence.
   cout << "Chapter 7. Number 7.37." << endl;
   const int size = 5;
-  int array[size] = {-1, -4, -9, -16, 36};
+  const int array[size] = {-1, -4, -9, -16, 36};
   int num = 1; //'+' the first sign for comparison with the following
   int count = 0;
   int i = 0;

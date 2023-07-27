@@ -6,10 +6,10 @@ int main()
   //Chapter 1. Number 1.58.
   //What temperature on the Celsius scale corresponds to the specified value?
   double tFahrenheit = 450.0;
-  double tСelsius = 0.0;
-  tСelsius = ( tFahrenheit - 32 ) / 1.8;
+  double tCelsius = 0.0;
+  tCelsius = ( tFahrenheit - 32 ) / 1.8;
   cout << "Chapter 1. Number 1.58." << endl;
-  cout << "450 degrees fahrenheit = " << tСelsius << " degrees celsius" << endl;
+  cout << "450 degrees fahrenheit = " << tCelsius << " degrees celsius" << endl;
 
   //Chapter 1. Number 1.61.
   ////Given a real number a. Using only the multiplication operation, get...

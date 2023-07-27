@@ -20,7 +20,7 @@ int main()
   cout << "Chapter 8. Number 8.46." << endl;
   const int n = 4;
   int nod_;
-  int arr[n] = {25, 50, 75, 100};
+  const int arr[n] = {25, 50, 75, 100};
 
   if ( n >= 2 )
     nod_ = nod( arr[0], arr[1] );
