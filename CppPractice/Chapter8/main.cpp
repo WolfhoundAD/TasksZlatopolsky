@@ -28,7 +28,7 @@ int main()
   else
     nod_ = arr[0];
 
-  for ( int i = 2 ; i < n ; i++ )
+  for ( int i = 2 ; i < n ; ++i )
     nod_ = nod( nod_, arr[i] );
 
   cout << "NOD = " << nod_ << endl;
