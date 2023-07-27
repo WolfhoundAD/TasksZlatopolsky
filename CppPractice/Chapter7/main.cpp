@@ -19,11 +19,11 @@ int main()
     num = array[j];
 
     if ( ( temp > 0 && num < 0 ) || ( temp < 0 && num > 0 ) )
-      count++;
+      ++count;
 
     temp = num;
 
-    i++;
+    ++i;
   }
 
   cout << "The sign has changed " << count << " times" << endl;

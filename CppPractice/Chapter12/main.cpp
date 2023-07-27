@@ -9,9 +9,9 @@ int main()
   char arr[7][7];
   int i, j;
 
-  for ( i = 0; i < 7; i++ )
+  for ( i = 0; i < 7; ++i )
   {
-    for ( j = 0; j < 7; j++ )
+    for ( j = 0; j < 7; ++j )
     {
       if ( i == j or i + j == 6 or j == 3 or i == 3 )
         arr[i][j] = '1';
@@ -20,9 +20,9 @@ int main()
     }
   }
 
-  for ( i = 0; i < 7; i++ )
+  for ( i = 0; i < 7; ++i )
   {
-    for ( j = 0; j < 7; j++ )
+    for ( j = 0; j < 7; ++j )
       cout << arr[i][j] << " ";
 
     cout << endl;

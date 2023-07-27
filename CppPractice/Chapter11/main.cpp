@@ -49,12 +49,12 @@ int main()
   const int pArr[iLen] = {1, 3, 3, 4, 5, 6, 7, 8, 9, 25};
   int iSum = 0;
 
-  for ( int i = 0; i < iLen; i++ )
+  for ( int i = 0; i < iLen; ++i )
     iSum += abs( pArr[i] );
 
   int iDelta = 0;
 
-  for ( int i = 1; i < iLen; i++ )
+  for ( int i = 1; i < iLen; ++i )
     if ( abs( iSum / iLen - abs( pArr[i] ) ) < abs( iSum / iLen - abs( pArr[i - 1] ) ) )
       iDelta = i;
 

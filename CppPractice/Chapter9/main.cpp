@@ -11,12 +11,12 @@ int main()
   cout << "in the sentence: ";
   string s{"EEveryone hhas onnes ownn path."};
 
-  for ( int i = 0; i < s.length(); i++ )
+  for ( int i = 0; i < s.length(); ++i )
   {
     cout << s[i];
 
     if ( s[i] == s[i + 1] )
-      repeat++;
+      ++repeat;
   }
 
   cout << "\n Number of repeated adjacent letters = " << repeat << endl;

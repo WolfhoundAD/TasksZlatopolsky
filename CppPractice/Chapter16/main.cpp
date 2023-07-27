@@ -15,13 +15,13 @@ int main()
   srand( ( unsigned )time( NULL ) );
   cout << "Array: " << endl;
 
-  for ( int i = 0; i < n; i++ )
+  for ( int i = 0; i < n; ++i )
   {
     arr[i] = rand() % 2;
     cout << arr[i];
 
-    if ( arr[i] == 0 ) zero++;
-    else if ( arr[i] == 1 ) one++;
+    if ( arr[i] == 0 ) ++zero;
+    else if ( arr[i] == 1 ) ++one;
   }
 
   cout << "\nOnes: " << one << endl;
