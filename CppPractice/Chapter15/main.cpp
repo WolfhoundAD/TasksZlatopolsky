@@ -9,7 +9,7 @@ int main()
   //strings into an array in the same order.
   cout << "Chapter 15. Number 15.17." << endl;
 
-  ifstream ifs( "D:\\Chap15.txt" );
+  ifstream ifs( "Chap15.txt" );
 
   if ( !ifs ) return -1;
 

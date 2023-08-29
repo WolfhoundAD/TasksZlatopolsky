@@ -12,21 +12,21 @@ int main()
   cout << "Chapter 14. Number 14.59." << endl;
   string str;
   char c1, c2;
-  ofstream f1( "D:\\file1.txt" );
+  ofstream f1( "file1.txt" );
   cout << "Enter line 1: " << endl;
   getline( cin, str );
   f1 << str;
   f1.close();
-  ofstream f2( "D:\\file2.txt" );
+  ofstream f2( "file2.txt" );
   cout << "Enter line 2: " << endl;
   getline( cin, str );
   f2 << str;
   f2.close();
 
-  ifstream f3( "D:\\file1.txt" );
-  ifstream f4( "D:\\file2.txt" );
+  ifstream f3( "file1.txt" );
+  ifstream f4( "file2.txt" );
 
-  ofstream den( "D:\\otvet.txt" );
+  ofstream den( "otvet.txt" );
   int i = 0;
 
   while ( true )

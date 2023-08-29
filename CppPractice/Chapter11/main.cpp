@@ -1,5 +1,23 @@
 #include <iostream>
 using namespace std;
+
+void bubbleSort( int arr[], int iLen )
+{
+  for ( int q = 0; q < iLen - 1; q++ )
+  {
+    for ( int j = 0; j < iLen - q - 1; j++ )
+    {
+      if ( arr[j] > arr[j + 1] )
+      {
+
+        int temp = arr[j];
+        arr[j] = arr[j + 1];
+        arr[j + 1] = temp;
+      }
+    }
+  }
+}
+
 int main()
 {
   //Chapter 11. Number 11.246.
@@ -10,8 +28,8 @@ int main()
   // c) the maximum of the elements with the same number in the given arrays.
   cout << "Chapter 11. Number 11.246." << endl;
   const int iLen = 10;
-  const int arr1[iLen] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-  const int arr2[iLen] = {4, 3, 3, 4, 5, 6, 7, 8, 9, 11};
+  const int arr1[iLen] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 7};
+  const int arr2[iLen] = {4, 3, 3, 9, 5, 6, 7, 8, 9, 1};
   int arr3[iLen];
 
 //a
@@ -46,7 +64,9 @@ int main()
   // Find the element closest to the average value of all the elements of the array.
   cout << "Chapter 11. Number 11.97." << endl;
 
-  const int pArr[iLen] = {1, 3, 3, 4, 5, 6, 7, 8, 9, 25};
+  int pArr[iLen] = {10, 3, 15, 4, 5, 6, 27, 11, 9, 25};
+  bubbleSort( pArr, iLen );
+
   int iSum = 0;
 
   for ( int i = 0; i < iLen; ++i )
